@@ -20,9 +20,9 @@ public class Drejteza extends Application {
         BorderPane  layout = new BorderPane();
         Color c;
         for (int i = 0; i < numberOfLines; i++) {
-            int R = (int) (Math.random( )*256);
-            int G = (int)(Math.random( )*256);
-            int B = (int)(Math.random( )*256);
+            int R = ThreadLocalRandom.current().nextInt(0, 256);
+            int G = ThreadLocalRandom.current().nextInt(0, 256);
+            int B = ThreadLocalRandom.current().nextInt(0, 256);
             c = Color.rgb(R, G, B);
 
             int startX = ThreadLocalRandom.current().nextInt(0, height + 1);
