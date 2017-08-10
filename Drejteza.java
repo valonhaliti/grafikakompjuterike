@@ -1,4 +1,4 @@
-/** Ky aplikacion do të shfaq në mënyrë të rastësishme drejtëzat dhe ngjyrën e tyre.
+/** Ky aplikacion do të shfaq drejtëza me pozita dhe ngjyra të rastësishme.
  * Autor: Valon Haliti */
 
 import javafx.application.Application;
